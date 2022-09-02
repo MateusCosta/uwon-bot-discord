@@ -1,0 +1,27 @@
+{
+  "name": "uwon-bot-discord",
+  "version": "1.0.0",
+  "description": "Discord Bot to play Ultimate Werewolf One Night",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev:api": "ts-node ./src/api/index.ts",
+    "dev:bot": "ts-node ./src/bot/index.tsts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MateusCosta/uwon-bot-discord.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MateusCosta/uwon-bot-discord/issues"
+  },
+  "homepage": "https://github.com/MateusCosta/uwon-bot-discord#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.36.1",
+    "@typescript-eslint/parser": "^5.36.1",
+    "eslint": "^8.23.0"
+  }
+}
